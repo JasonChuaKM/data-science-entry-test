@@ -10,7 +10,7 @@ def swap(x, y)
     if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
         return -1
     
-    # Swap using only x and y
+    # Swap using only x and y  (Arithmetic swap)
     x = x + y
     y = x - y
     x = x - y
