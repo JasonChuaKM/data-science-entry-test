@@ -16,8 +16,8 @@ def find_and_replace(lst, find_val, replace_val):
     - Return the modified list.
     """
 
-    # 1: Check if the input lst is actually a list using isinstance function
-    # If it's not a list, return -1 as an error signal.
+    # 1: Check if the input lst is a list 
+    # If not a list, return -1 as an error.
     if not isinstance(lst, list):
         return -1
 
