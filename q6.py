@@ -9,13 +9,13 @@ def find_first_negative(lst):
 
 def find_first_negative(lst):
     
-    # Loop through each item in the list
+    # Loop through each item 
     for item in lst:
         # Check if the current item is negative
         if item < 0:
             return item  # Return the first negative number
     
-    # If loop finishes with no negative number found
+    # If loop finishes with no negative number 
     return None
 
 # Task 2
@@ -25,7 +25,7 @@ def find_first_negative(lst):
 
 
 print(find_first_negative([3, 5, -1, 7, -2, 8]))  
-# Expected output: -1
+#  output: -1
 
 print(find_first_negative([2, 10, 7, 0]))        
-# Expected output: None
+#  output: None
