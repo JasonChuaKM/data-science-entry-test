@@ -7,6 +7,11 @@ def string_reverse(s):
     """
     return
 
+txt = "Hello World" [::-1]
+print (txt)
+
+txt="Python" [::-1]
+print (txt)
 
 # Task 2
 # Invoke the function "string_reverse" using the following scenarios:
